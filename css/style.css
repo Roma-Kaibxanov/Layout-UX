@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wrapper {
+    position: absolute;
+    min-width: 1445px;
+    width: 100%;
+}
+
+/* --- section-home --- */
+.section-home {
+    min-width: 1445px;
+    width: 100%;
+}
+
+
+.header {
+    display: flex;
+    width: 940px;
+    height: 69px;
+    border-bottom: solid 1px #828282;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 33px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.link {
+    color: #828282;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: black;
+}
+
+.page {
+    width: 940px;
+    margin: 0px auto;
+}
+
+.img-people {
+    width: 943px;
+    height: 387px;
+    margin-bottom: 104px;
+}
+
+.h-one-h-two {
+    display: flex;
+}
+
+.h-one {
+    font-size: 47px;
+    line-height: 58px;
+    font-weight: bold;
+    margin-top: 39px;
+    padding-bottom: 30px;
+    margin-right: 297px;
+}
+
+.h-two {
+    margin-top: 95px;
+    line-height: 21px;
+}
+
+.ru-eng {
+    width: 20px;
+    height: 65px;
+    margin-left: 395px;
+    margin-top: 69px;
+}
+/* --- section-home --- */
+
+/* --- section-about-me --- */
+.section-about-me {
+    background: #F6F6F6;
+    min-width: 1445px;
+    width: 100%;
+    height: 506px;
+    text-align: center;
+}
+
+.h-one-about-me {
+    margin-top: 0px;
+    font-size: 34px;
+    padding-top: 120px;
+    margin-bottom: 30px;
+}
+
+.ux {
+    font-size: 18px;
+    text-align: center;
+    width: 485px;
+    height: 218px;
+    line-height: 22px;
+    margin: 0px auto;
+}
+
+.h-three {
+    margin-bottom: 43px;
+}
+/* --- section-about-me --- */
+
+/* --- section-skills --- */
+.section-skills {
+    top: 1288px;
+    left: 0px;
+    min-width: 1445px;
+    width: 100%;
+    text-align: center;
+}
+
+.container-skills {
+    justify-content: space-evenly;
+    position: relative;
+    display: flex;
+    max-width: 1445px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.wrapp {
+    display: flex;
+    width: 943px;
+    justify-content: space-between;
+}
+
+.h-one-skills {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 91px;
+    margin-bottom: 69px;
+}
+
+.p-three-skills {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 83px;
+}
+
+.img-photoshop {
+    background-image: url("../img/photoshop-bg.png");
+    background-position: center;
+}
+
+.p-photoshop {
+    margin-top: 24px;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.img-illustrator {
+    background-image: url("../img/photoshop-bg.png");
+    background-position: center;
+}
+
+.p-illustrator {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    color: #828282;
+}
+
+.img-after-effects {
+    background-image: url("../img/photoshop-bg.png");
+    background-position: center;
+}
+
+.p-after-effects {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    color: #828282;
+}
+
+.img-figma {
+    width: 60px;
+    height: 88px;
+    background-image: url("../img/photoshop-bg.png");
+    background-position: center;
+}
+
+.p-figma {
+    margin-top: 27px;
+    margin-bottom: 59px;
+    color: #828282;
+}
+
+.img-figma-star {
+    margin-bottom: 111px;
+}
+
+/* --- section-skills --- */
+/* --- section-portfolio --- */
+.section-portfolio {
+    position: absolute;
+    min-width: 1445px;
+    width: 100%;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.h-one-porfolio {
+    margin: 112px auto auto auto;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.img-fashion {
+    margin-top: 47px;
+    margin-bottom: 44px;
+}
+
+.p-fashion {
+    margin-bottom: 99px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.homepage {
+    color: #070707;
+}
+
+.p-reebok {
+    margin-top: 44.89px;
+    margin-bottom: 99px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.p-braun {
+    margin-top: 45px;
+    margin-bottom: 96px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.section-contacts {
+    margin: 0px auto;
+    margin-top: 2256px;
+    max-width: 1445px;
+    width: 100%;
+    text-align: center;
+}
+
+.h-one-contacts {
+    font-size: 34px;
+    line-height: 42px;
+    padding-top: 114px;
+    margin-bottom: 28px;
+}
+
+.p-contacts {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 29px;
+}
+
+.btn {
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 30px;
+    width: 180px;
+    height: 42px;
+    margin-bottom: 83px;
+}
+
+.btn-link {
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+.img-contacts {
+    position: relative;
+    margin: 0px auto;
+    width: 342px;
+    height: 43px;
+}
+
+.in {
+    position: absolute;
+    right: 301px;
+    margin-right: px;
+}
+
+.inst {
+    position: absolute;
+    left: 101px;
+}
+
+.be {
+    position: absolute;
+    left: 200px;
+}
+
+.ball {
+    left: 302px;
+    position: absolute;
+    margin-right: 0px;
+}
+
+.like {
+    line-height: 17px;
+    margin-top: 46px;
+    margin-bottom: 123px;
+}
+/* --- section-portfolio --- */
